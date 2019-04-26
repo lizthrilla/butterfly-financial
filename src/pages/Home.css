@@ -1,0 +1,32 @@
+.home {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home p {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 400px;
+}
