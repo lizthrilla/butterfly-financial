@@ -15,6 +15,7 @@
     padding: 1em;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -48,6 +49,7 @@
     background-color: white;
     padding: 1em;
     margin: 1em;
+    width: 170px;
 }
 /* Media Queries */
 @media (max-width: 600px) {
