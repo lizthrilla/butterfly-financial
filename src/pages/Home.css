@@ -28,5 +28,34 @@
 }
 
 .about {
-    width: 400px;
+    max-width: 50%;
+}
+
+.about p {
+    width: 95%;
+}
+@media (max-width: 600px) {
+
+   .row {
+       flex-direction: column;
+   }
+
+   .about {
+       max-width: 90%;
+   }
+}
+
+@media (min-width: 1200px) {
+    .about p {
+        font-size: 20px;
+    }
+
+    .about h3 {
+        font-size: 36px;
+    }
+
+    .logo {
+        height: 300px;
+        width: 300px;
+    }
 }
