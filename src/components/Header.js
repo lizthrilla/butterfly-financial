@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className='row'>
+        <div className='row header'>
             <div className="logo">Logo</div>
             <div className="about">
                 <h3>Butterfly Financial Consultants</h3>

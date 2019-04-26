@@ -12,10 +12,14 @@
 .row {
     display: flex;
     flex-direction: row;
-    padding: 2em;
+    padding: 1em;
     justify-content: space-evenly;
-    width: 100%;
     align-items: center;
+}
+
+.header {
+    width: 100%;
+    padding: 1em;
 }
 
 .logo {
@@ -34,6 +38,18 @@
 .about p {
     width: 95%;
 }
+
+.services {
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.box {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+}
+/* Media Queries */
 @media (max-width: 600px) {
 
    .row {
@@ -42,6 +58,13 @@
 
    .about {
        max-width: 90%;
+   }
+
+   .box {
+       width: 200px;
+   }
+   .header {
+       margin-left: 10px;
    }
 }
 
